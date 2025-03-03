@@ -1,13 +1,13 @@
 import "./App.css";
 import Home from "./Components/Home/Home";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import LayOut from "./Components/LayOut/LayOut";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
-  const routes = createBrowserRouter([
+  const routes = createHashRouter([
     {
       path: "",
       element: <LayOut />,
