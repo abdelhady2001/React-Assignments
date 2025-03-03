@@ -1,10 +1,11 @@
 import React from "react";
+import siteImg from "../../assets/Images/Avatar.svg";
 
 export default function Home() {
   return (
     <>
       <div className=" d-flex flex-column justify-content-center align-items-center margin-home bg-home ">
-        <img className="img-home" src="./src/assets/Images/Avatar.svg" alt />
+        <img className="img-home" src={siteImg} alt="siteImg" />
         <div className="text-center pt-4">
           <h2 className="text-white text-uppercase mb-3 fs-1 fw-bolder">
             start framework

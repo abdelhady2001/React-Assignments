@@ -1,4 +1,7 @@
 import React from "react";
+import img1 from "../../assets/Images/img_1.png";
+import img2 from "../../assets/Images/img_2.png";
+import img3 from "../../assets/Images/img_3.png";
 
 export default function Portfolio() {
   return (
@@ -16,11 +19,7 @@ export default function Portfolio() {
           <div className="row g-5">
             <div className="col-lg-4 col-md-6">
               <div className="position-relative rounded-3 overflow-hidden ">
-                <img
-                  className="w-100"
-                  src="./src/assets/Images/img_1.png"
-                  alt="img_1"
-                />
+                <img className="w-100" src={img1} alt="img_1" />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
                   <i className="fa-solid fa-plus fa-6x text-white"></i>
                 </div>
@@ -28,11 +27,7 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="position-relative rounded-3 overflow-hidden ">
-                <img
-                  className="w-100"
-                  src="./src/assets/Images/img_2.png"
-                  alt="img_2"
-                />
+                <img className="w-100" src={img2} alt="img_2" />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
                   <i className="fa-solid fa-plus fa-6x text-white"></i>
                 </div>
@@ -40,11 +35,7 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="position-relative rounded-3 overflow-hidden ">
-                <img
-                  className="w-100"
-                  src="./src/assets/Images/img_3.png"
-                  alt="img_3"
-                />
+                <img className="w-100" src={img3} alt="img_3" />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
                   <i className="fa-solid fa-plus fa-6x text-white"></i>
                 </div>
@@ -52,11 +43,7 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="position-relative rounded-3 overflow-hidden ">
-                <img
-                  className="w-100"
-                  src="./src/assets/Images/img_1.png"
-                  alt="img_1"
-                />
+                <img className="w-100" src={img1} alt="img_1" />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
                   <i className="fa-solid fa-plus fa-6x text-white"></i>
                 </div>
@@ -64,11 +51,7 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="position-relative rounded-3 overflow-hidden ">
-                <img
-                  className="w-100"
-                  src="./src/assets/Images/img_2.png"
-                  alt="img_2"
-                />
+                <img className="w-100" src={img2} alt="img_2" />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
                   <i className="fa-solid fa-plus fa-6x text-white"></i>
                 </div>
@@ -76,11 +59,7 @@ export default function Portfolio() {
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="position-relative rounded-3 overflow-hidden ">
-                <img
-                  className="w-100"
-                  src="./src/assets/Images/img_3.png"
-                  alt="img_3"
-                />
+                <img className="w-100" src={img3} alt="img_3" />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
                   <i className="fa-solid fa-plus fa-6x text-white"></i>
                 </div>
