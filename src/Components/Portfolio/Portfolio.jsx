@@ -18,7 +18,7 @@ export default function Portfolio() {
               <div className="position-relative rounded-3 overflow-hidden ">
                 <img
                   className="w-100"
-                  src="src\assets\Images\img_1.png"
+                  src="./src/assets/Images/img_1.png"
                   alt="img_1"
                 />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
@@ -30,7 +30,7 @@ export default function Portfolio() {
               <div className="position-relative rounded-3 overflow-hidden ">
                 <img
                   className="w-100"
-                  src="src\assets\Images\img_2.png"
+                  src="./src/assets/Images/img_2.png"
                   alt="img_2"
                 />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
@@ -42,7 +42,7 @@ export default function Portfolio() {
               <div className="position-relative rounded-3 overflow-hidden ">
                 <img
                   className="w-100"
-                  src="src\assets\Images\img_3.png"
+                  src="./src/assets/Images/img_3.png"
                   alt="img_3"
                 />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
@@ -54,7 +54,7 @@ export default function Portfolio() {
               <div className="position-relative rounded-3 overflow-hidden ">
                 <img
                   className="w-100"
-                  src="src\assets\Images\img_1.png"
+                  src="./src/assets/Images/img_1.png"
                   alt="img_1"
                 />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
@@ -66,7 +66,7 @@ export default function Portfolio() {
               <div className="position-relative rounded-3 overflow-hidden ">
                 <img
                   className="w-100"
-                  src="src\assets\Images\img_2.png"
+                  src="./src/assets/Images/img_2.png"
                   alt="img_2"
                 />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
@@ -78,7 +78,7 @@ export default function Portfolio() {
               <div className="position-relative rounded-3 overflow-hidden ">
                 <img
                   className="w-100"
-                  src="src\assets\Images\img_3.png"
+                  src="./src/assets/Images/img_3.png"
                   alt="img_3"
                 />
                 <div className="portfolio-layer w-100 h-100 d-flex justify-content-center align-items-center position-absolute top-0 start-0 ">
